@@ -7,22 +7,25 @@ Browserslist: caniuse-lite is outdated. Please run:
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
   App tests
-    ✓ renders the header somewhere (49 ms)
+    ✓ renders the header somewhere (76 ms)
 
-------------------|---------|----------|---------|---------|-------------------
-File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-------------------|---------|----------|---------|---------|-------------------
-All files         |   77.77 |       50 |      75 |   77.77 |                   
- src              |     100 |       50 |     100 |     100 |                   
-  App.tsx         |     100 |      100 |     100 |     100 |                   
-  NavBar.tsx      |     100 |       50 |     100 |     100 | 15-27             
- src/pages        |   33.33 |      100 |   33.33 |   33.33 |                   
-  AboutPage.tsx   |       0 |      100 |       0 |       0 | 4                 
-  ContactPage.tsx |       0 |      100 |       0 |       0 | 4                 
-  HomePage.tsx    |     100 |      100 |     100 |     100 |                   
-------------------|---------|----------|---------|---------|-------------------
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   66.66 |       50 |   64.28 |   66.66 |                   
+ src                   |     100 |       50 |     100 |     100 |                   
+  App.tsx              |     100 |      100 |     100 |     100 |                   
+  NavBar.tsx           |     100 |       50 |     100 |     100 | 15-45             
+ src/pages             |   16.66 |      100 |   16.66 |   16.66 |                   
+  AboutPage.tsx        |       0 |      100 |       0 |       0 | 4                 
+  ContactPage.tsx      |       0 |      100 |       0 |       0 | 4                 
+  FutureEventsPage.tsx |       0 |      100 |       0 |       0 | 4                 
+  HomePage.tsx         |     100 |      100 |     100 |     100 |                   
+  JoinPage.tsx         |       0 |      100 |       0 |       0 | 4                 
+  PastEventsPage.tsx   |       0 |      100 |       0 |       0 | 4                 
+-----------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.584 s
+Time:        2.393 s
 Ran all test suites.
