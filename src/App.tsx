@@ -10,8 +10,6 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">PAYAD Website</header>
-            <h1>Words words</h1>
-            <h2>Hi hello</h2>
             <div>
                 <BrowserRouter>
                     <NavBar />
