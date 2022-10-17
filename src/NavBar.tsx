@@ -28,6 +28,24 @@ export function NavBar() {
             >
                 Contact Us
             </NavLink>
+            <NavLink
+                to="/join"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+                Join
+            </NavLink>
+            <NavLink
+                to="/past"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+                Past Events
+            </NavLink>
+            <NavLink
+                to="/future"
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+                Future Events
+            </NavLink>
         </nav>
     );
 }

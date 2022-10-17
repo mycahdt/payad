@@ -5,6 +5,9 @@ import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { JoinPage } from "./pages/JoinPage";
+import { PastEventsPage } from "./pages/PastEventsPage";
+import { FutureEventsPage } from "./pages/FutureEventsPage";
 
 function App(): JSX.Element {
     return (
@@ -19,6 +22,15 @@ function App(): JSX.Element {
                         <Route
                             path="/contact"
                             element={<ContactPage />}
+                        ></Route>
+                        <Route path="/join" element={<JoinPage />}></Route>
+                        <Route
+                            path="/past"
+                            element={<PastEventsPage />}
+                        ></Route>
+                        <Route
+                            path="/future"
+                            element={<FutureEventsPage />}
                         ></Route>
                     </Routes>
                 </BrowserRouter>
