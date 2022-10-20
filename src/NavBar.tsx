@@ -7,7 +7,10 @@ export function NavBar() {
     const [visible, setVisible] = useState<boolean>(true);
     const activeStyle = {
         textDecoration: "underline",
-        color: "black"
+        color: "white"
+    };
+    const notActiveStyle = {
+        color: "grey"
     };
     return (
         <div>
@@ -16,7 +19,7 @@ export function NavBar() {
                     end
                     to="/"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
@@ -25,7 +28,7 @@ export function NavBar() {
                 <NavLink
                     to="/about"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
@@ -34,7 +37,7 @@ export function NavBar() {
                 <NavLink
                     to="/contact"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
@@ -43,7 +46,7 @@ export function NavBar() {
                 <NavLink
                     to="/join"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
@@ -52,7 +55,7 @@ export function NavBar() {
                 <NavLink
                     to="/past"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
@@ -61,7 +64,7 @@ export function NavBar() {
                 <NavLink
                     to="/future"
                     style={({ isActive }) =>
-                        isActive ? activeStyle : undefined
+                        isActive ? activeStyle : notActiveStyle
                     }
                     onClick={() => setVisible(false)}
                 >
