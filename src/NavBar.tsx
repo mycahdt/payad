@@ -7,10 +7,10 @@ export function NavBar() {
     const [visible, setVisible] = useState<boolean>(true);
     const activeStyle = {
         textDecoration: "underline",
-        color: "white"
+        color: "black"
     };
     const notActiveStyle = {
-        color: "grey"
+        color: "blue"
     };
     return (
         <div>
