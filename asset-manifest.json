@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/payad/static/css/main.e957986c.css",
-    "main.js": "/payad/static/js/main.d39844a8.js",
+    "main.css": "/payad/static/css/main.b442038d.css",
+    "main.js": "/payad/static/js/main.6b767470.js",
     "static/js/787.4ef7427d.chunk.js": "/payad/static/js/787.4ef7427d.chunk.js",
     "index.html": "/payad/index.html",
-    "main.e957986c.css.map": "/payad/static/css/main.e957986c.css.map",
-    "main.d39844a8.js.map": "/payad/static/js/main.d39844a8.js.map",
+    "main.b442038d.css.map": "/payad/static/css/main.b442038d.css.map",
+    "main.6b767470.js.map": "/payad/static/js/main.6b767470.js.map",
     "787.4ef7427d.chunk.js.map": "/payad/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e957986c.css",
-    "static/js/main.d39844a8.js"
+    "static/css/main.b442038d.css",
+    "static/js/main.6b767470.js"
   ]
 }
