@@ -20,8 +20,8 @@ export function NavBar() {
                     <img
                         src={require("./images/payadLogo.jpg")}
                         alt="the payad logooo"
-                        width="50"
-                        height="20"
+                        width="75"
+                        height="30"
                     />
                 </NavLink>
                 <NavLink
