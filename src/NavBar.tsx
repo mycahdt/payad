@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { HomePage } from "./pages/HomePage";
