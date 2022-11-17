@@ -1,31 +1,31 @@
 
 > react-typescript-starter@0.1.0 test
-> react-scripts test
+> react-scripts test --coverage
 
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
   App tests
-    ✓ renders the header somewhere (93 ms)
+    ✓ renders the header somewhere (84 ms)
 
------------------------|---------|----------|---------|---------|-------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
------------------------|---------|----------|---------|---------|-------------------
-All files              |   52.17 |    57.14 |      45 |   52.17 |                   
- src                   |    64.7 |    57.14 |   57.14 |    64.7 |                   
-  App.tsx              |     100 |      100 |     100 |     100 |                   
-  NavBar.tsx           |    62.5 |    57.14 |   53.84 |    62.5 | 30,39,48,57,66,75 
- src/pages             |   16.66 |      100 |   16.66 |   16.66 |                   
-  AboutPage.tsx        |       0 |      100 |       0 |       0 | 4                 
-  ContactPage.tsx      |       0 |      100 |       0 |       0 | 4                 
-  FutureEventsPage.tsx |       0 |      100 |       0 |       0 | 4                 
-  HomePage.tsx         |     100 |      100 |     100 |     100 |                   
-  JoinPage.tsx         |       0 |      100 |       0 |       0 | 4                 
-  PastEventsPage.tsx   |       0 |      100 |       0 |       0 | 4                 
------------------------|---------|----------|---------|---------|-------------------
+-----------------------|---------|----------|---------|---------|----------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
+-----------------------|---------|----------|---------|---------|----------------------
+All files              |      50 |    57.14 |   42.85 |      50 |                      
+ src                   |   61.11 |    57.14 |   53.33 |   61.11 |                      
+  App.tsx              |     100 |      100 |     100 |     100 |                      
+  NavBar.tsx           |   58.82 |    57.14 |      50 |   58.82 | 19,33,42,51,60,69,78 
+ src/pages             |   16.66 |      100 |   16.66 |   16.66 |                      
+  AboutPage.tsx        |       0 |      100 |       0 |       0 | 4                    
+  ContactPage.tsx      |       0 |      100 |       0 |       0 | 4                    
+  FutureEventsPage.tsx |       0 |      100 |       0 |       0 | 4                    
+  HomePage.tsx         |     100 |      100 |     100 |     100 |                      
+  JoinPage.tsx         |       0 |      100 |       0 |       0 | 4                    
+  PastEventsPage.tsx   |       0 |      100 |       0 |       0 | 4                    
+-----------------------|---------|----------|---------|---------|----------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        3.132 s
+Time:        1.782 s
 Ran all test suites.
