@@ -20,7 +20,7 @@ export function NavBar() {
                 <NavLink end to="/" onClick={() => setVisible(false)}>
                     <img
                         src={require("./images/payadLogo.jpg")}
-                        alt="the payad logooo"
+                        alt="The Payad Logo"
                         width="75"
                         height="30"
                     />
