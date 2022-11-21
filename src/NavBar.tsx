@@ -6,11 +6,12 @@ import { HomePage } from "./pages/HomePage";
 export function NavBar() {
     const [visible, setVisible] = useState<boolean>(true);
     const activeStyle = {
-        textDecoration: "underline",
+        textDecoration: "none",
         color: "black",
         background: "white"
     };
     const notActiveStyle = {
+        textDecoration: "none",
         color: "white"
     };
     return (
