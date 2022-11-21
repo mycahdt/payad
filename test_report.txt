@@ -7,7 +7,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
   App tests
-    ✓ renders the header somewhere (76 ms)
+    ✓ renders the header somewhere (83 ms)
 
 -----------------------|---------|----------|---------|---------|----------------------
 File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
@@ -27,5 +27,5 @@ All files              |      50 |    57.14 |   42.85 |      50 |
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.73 s
+Time:        2.33 s
 Ran all test suites.
